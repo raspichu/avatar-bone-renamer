@@ -1,0 +1,361 @@
+{
+    "Hips": {
+        "name": "Hips",
+        "children": {
+            "Butt_L": {
+                "name": "Hips_L",
+                "children": {
+                    "Butt_1_L": "Hips_L.001"
+                }
+            },
+            "Butt_R": {
+                "name": "Hips_R",
+                "children": {
+                    "Butt_1_R": "Hips_R.001"
+                }
+            },
+            "UpperLeg_L": {
+                "name": "Left leg",
+                "children": {
+                    "LowerLeg_L": {
+                        "name": "Left knee",
+                        "children": {
+                            "Foot_L": {
+                                "name": "Left ankle",
+                                "children": {
+                                    "Toe_L": {
+                                        "name": "Left Toe",
+                                        "children": {
+                                            "Thumb_1_L": {
+                                                "name": "Toe_Thumb_Proximal_R",
+                                                "children": {
+                                                    "Thumb_2_L": {
+                                                        "name": "Toe_Thumb_Intermediate",
+                                                        "children": {
+                                                            "Thumb_3_L": "Toe_Thumb_Distal_L"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Index_1_L": {
+                                                "name": "Toe_Index_Proximal_L",
+                                                "children": {
+                                                    "Index_2_L": {
+                                                        "name": "Toe_Index_Intermediate",
+                                                        "children": {
+                                                            "Index_3_L": "Toe_Index_Distal_L"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Middle_1_L": {
+                                                "name": "Toe_Middle_Proximal_L",
+                                                "children": {
+                                                    "Middle_2_L": {
+                                                        "name": "Toe_Middle_Intermediate",
+                                                        "children": {
+                                                            "Middle_3_L": "Toe_Middle_Distal_L"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Ring_1_L": {
+                                                "name": "Toe_Ring_Proximal_L",
+                                                "children": {
+                                                    "Ring_2_L": {
+                                                        "name": "Toe_Ring_Intermediate",
+                                                        "children": {
+                                                            "Ring_3_L": "Toe_Ring_Distal_L"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Little_1_L": {
+                                                "name": "Toe_Little_Proximal_L",
+                                                "children": {
+                                                    "Little_2_L": {
+                                                        "name": "Toe_Little_Intermediate",
+                                                        "children": {
+                                                            "Little_3_L": "Toe_Little_Distal_L"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "UpperLeg_R": {
+                "name": "Right leg",
+                "children": {
+                    "LowerLeg_R": {
+                        "name": "Right knee",
+                        "children": {
+                            "Foot_R": {
+                                "name": "Right ankle",
+                                "children": {
+                                    "Toe_R": {
+                                        "name": "Right Toe",
+                                        "children": {
+                                            "Thumb_1_R": {
+                                                "name": "Toe_Thumb_Proximal_R",
+                                                "children": {
+                                                    "Thumb_2_R": {
+                                                        "name": "Toe_Thumb_Intermediate",
+                                                        "children": {
+                                                            "Thumb_3_R": "Toe_Thumb_Distal_R"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Index_1_R": {
+                                                "name": "Toe_Index_Proximal_R",
+                                                "children": {
+                                                    "Index_2_R": {
+                                                        "name": "Toe_Index_Intermediate",
+                                                        "children": {
+                                                            "Index_3_R": "Toe_Index_Distal_R"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Middle_1_R": {
+                                                "name": "Toe_Middle_Proximal_R",
+                                                "children": {
+                                                    "Middle_2_R": {
+                                                        "name": "Toe_Middle_Intermediate",
+                                                        "children": {
+                                                            "Middle_3_R": "Toe_Middle_Distal_R"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Ring_1_R": {
+                                                "name": "Toe_Ring_Proximal_R",
+                                                "children": {
+                                                    "Ring_2_R": {
+                                                        "name": "Toe_Ring_Intermediate",
+                                                        "children": {
+                                                            "Ring_3_R": "Toe_Ring_Distal_R"
+                                                        }
+                                                    }
+                                                }
+                                            },
+                                            "Little_1_R": {
+                                                "name": "Toe_Little_Proximal_R",
+                                                "children": {
+                                                    "Little_2_R": {
+                                                        "name": "Toe_Little_Intermediate",
+                                                        "children": {
+                                                            "Little_3_R": "Toe_Little_Distal_R"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Spine": {
+                "name": "Spine",
+                "children": {
+                    "Chest": {
+                        "name": "Chest",
+                        "children": {
+                            "Neck": {
+                                "name": "Neck",
+                                "children": {
+                                    "Head": "Head"
+                                }
+                            },
+                            "Breast_R": {
+                                "name": "breast_R",
+                                "children": {
+                                    "Breast_1_R": {
+                                        "name": "breast_R.001",
+                                        "children": {
+                                            "Breast_2_R": "breast_R.002"
+                                        }
+                                    }
+                                }
+                            },
+                            "Breast_L": {
+                                "name": "breast_L",
+                                "children": {
+                                    "Breast_1_L": {
+                                        "name": "breast_L.001",
+                                        "children": {
+                                            "Breast_2_L": "breast_L.002"
+                                        }
+                                    }
+                                }
+                            },
+                            "Shoulder_L": {
+                                "name": "Left shoulder",
+                                "children": {
+                                    "UpperArm_L": {
+                                        "name": "Left arm",
+                                        "children": {
+                                            "UpperArmTwist_L": "Twist elbow_L",
+                                            "LowerArm_L": {
+                                                "name": "Left elbow",
+                                                "children": {
+                                                    "LowerArmTwist_L": "Twist wrist_L",
+                                                    "Hand_L": {
+                                                        "name": "Left wrist",
+                                                        "children": {
+                                                            "Thumb_1_L": {
+                                                                "name": "Thumb_Proximal_L",
+                                                                "children": {
+                                                                    "Thumb_2_L": {
+                                                                        "name": "Thumb_Intermediate",
+                                                                        "children": {
+                                                                            "Thumb_3_L": "Thumb_Distal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Index_1_L": {
+                                                                "name": "Index_Proximal_L",
+                                                                "children": {
+                                                                    "Index_2_L": {
+                                                                        "name": "Index_Intermediate",
+                                                                        "children": {
+                                                                            "Index_3_L": "Index_Distal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Middle_1_L": {
+                                                                "name": "Middle_Proximal_L",
+                                                                "children": {
+                                                                    "Middle_2_L": {
+                                                                        "name": "Middle_Intermediate",
+                                                                        "children": {
+                                                                            "Middle_3_L": "Middle_Distal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Ring_1_L": {
+                                                                "name": "Ring_Proximal_L",
+                                                                "children": {
+                                                                    "Ring_2_L": {
+                                                                        "name": "Ring_Intermediate",
+                                                                        "children": {
+                                                                            "Ring_3_L": "Ring_Distal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Little_1_L": {
+                                                                "name": "Little_Proximal_L",
+                                                                "children": {
+                                                                    "Little_2_L": {
+                                                                        "name": "Little_Intermediate",
+                                                                        "children": {
+                                                                            "Little_3_L": "Little_Distal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "Shoulder_R": {
+                                "name": "Right shoulder",
+                                "children": {
+                                    "UpperArm_R": {
+                                        "name": "Right arm",
+                                        "children": {
+                                            "UpperArmTwist_R": "Twist elbow_R",
+                                            "LowerArm_R": {
+                                                "name": "Right elbow",
+                                                "children": {
+                                                    "LowerArmTwist_R": "Twist wrist_R",
+                                                    "Hand_R": {
+                                                        "name": "Right wrist",
+                                                        "children": {
+                                                            "Thumb_1_R": {
+                                                                "name": "Thumb_Proximal_R",
+                                                                "children": {
+                                                                    "Thumb_2_R": {
+                                                                        "name": "Thumb_Intermediate",
+                                                                        "children": {
+                                                                            "Thumb_3_R": "Thumb_Distal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Index_1_R": {
+                                                                "name": "Index_Proximal_R",
+                                                                "children": {
+                                                                    "Index_2_R": {
+                                                                        "name": "Index_Intermediate",
+                                                                        "children": {
+                                                                            "Index_3_R": "Index_Distal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Middle_1_R": {
+                                                                "name": "Middle_Proximal_R",
+                                                                "children": {
+                                                                    "Middle_2_R": {
+                                                                        "name": "Middle_Intermediate",
+                                                                        "children": {
+                                                                            "Middle_3_R": "Middle_Distal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Ring_1_R": {
+                                                                "name": "Ring_Proximal_R",
+                                                                "children": {
+                                                                    "Ring_2_R": {
+                                                                        "name": "Ring_Intermediate",
+                                                                        "children": {
+                                                                            "Ring_3_R": "Ring_Distal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Little_1_R": {
+                                                                "name": "Little_Proximal_R",
+                                                                "children": {
+                                                                    "Little_2_R": {
+                                                                        "name": "Little_Intermediate",
+                                                                        "children": {
+                                                                            "Little_3_R": "Little_Distal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

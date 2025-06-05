@@ -1,0 +1,243 @@
+{
+    "Hips": {
+        "name": "Hips",
+        "children": {
+            "Butt_R": {
+                "name": "Butt_R",
+                "children": {
+                    "Butt_1_R": "Butt_R_end"
+                }
+            },
+            "Butt_L": {
+                "name": "Butt_L",
+                "children": {
+                    "Butt_1_L": "Butt_L_end"
+                }
+            },
+            "UpperLeg_L": {
+                "name": "UpperLeg_L",
+                "children": {
+                    "LowerLeg_L": {
+                        "name": "LowerLeg_L",
+                        "children": {
+                            "Foot_L": {
+                                "name": "Foot_L",
+                                "children": {
+                                    "Toe_L": "Toe_L"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "UpperLeg_R": {
+                "name": "UpperLeg_R",
+                "children": {
+                    "LowerLeg_R": {
+                        "name": "LowerLeg_R",
+                        "children": {
+                            "Foot_R": {
+                                "name": "Foot_R",
+                                "children": {
+                                    "Toe_R": "Toe_R"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "Spine": {
+                "name": "Spine",
+                "children": {
+                    "Chest": {
+                        "name": "Chest",
+                        "children": {
+                            "Neck": {
+                                "name": "Neck",
+                                "children": {
+                                    "Head": "Head"
+                                }
+                            },
+                            "Breast_R": {
+                                "name": "Breast_R",
+                                "children": {
+                                    "Breast_1_R": {
+                                        "name": "Breast_R.001",
+                                        "children": {
+                                            "Breast_2_R": "Breast_R.001_end"
+                                        }
+                                    }
+                                }
+                            },
+                            "Breast_L": {
+                                "name": "Breast_L",
+                                "children": {
+                                    "Breast_1_L": {
+                                        "name": "Breast_L.001",
+                                        "children": {
+                                            "Breast_2_L": "Breast_L.001_end"
+                                        }
+                                    }
+                                }
+                            },
+                            "Shoulder_L": {
+                                "name": "Shoulder_L",
+                                "children": {
+                                    "UpperArm_L": {
+                                        "name": "UpperArm_L",
+                                        "children": {
+                                            "UpperArmTwist_L": "UpperArm_twist_L",
+                                            "LowerArm_L": {
+                                                "name": "LowerArm_L",
+                                                "children": {
+                                                    "LowerArmTwist_L": "LowerArm_twist_L",
+                                                    "Hand_L": {
+                                                        "name": "Hand_L",
+                                                        "children": {
+                                                            "Thumb_1_L": {
+                                                                "name": "ThumbProximal_L",
+                                                                "children": {
+                                                                    "Thumb_2_L": {
+                                                                        "name": "ThumbIntermediate_L",
+                                                                        "children": {
+                                                                            "Thumb_3_L": "ThumbDistal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Index_1_L": {
+                                                                "name": "IndexProximal_L",
+                                                                "children": {
+                                                                    "Index_2_L": {
+                                                                        "name": "IndexIntermediate_L",
+                                                                        "children": {
+                                                                            "Index_3_L": "IndexDistal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Middle_1_L": {
+                                                                "name": "MiddleProximal_L",
+                                                                "children": {
+                                                                    "Middle_2_L": {
+                                                                        "name": "MiddleIntermediate_L",
+                                                                        "children": {
+                                                                            "Middle_3_L": "MiddleDistal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Ring_1_L": {
+                                                                "name": "RingProximal_L",
+                                                                "children": {
+                                                                    "Ring_2_L": {
+                                                                        "name": "RingIntermediate_L",
+                                                                        "children": {
+                                                                            "Ring_3_L": "RingDistal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Little_1_L": {
+                                                                "name": "LittleProximal_L",
+                                                                "children": {
+                                                                    "Little_2_L": {
+                                                                        "name": "LittleIntermediate_L",
+                                                                        "children": {
+                                                                            "Little_3_L": "LittleDistal_L"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "Shoulder_R": {
+                                "name": "Shoulder_R",
+                                "children": {
+                                    "UpperArm_R": {
+                                        "name": "UpperArm_R",
+                                        "children": {
+                                            "UpperArmTwist_R": "UpperArm_twist_R",
+                                            "LowerArm_R": {
+                                                "name": "LowerArm_R",
+                                                "children": {
+                                                    "LowerArmTwist_R": "LowerArm_twist_R",
+                                                    "Hand_R": {
+                                                        "name": "Hand_R",
+                                                        "children": {
+                                                            "Thumb_1_R": {
+                                                                "name": "ThumbProximal_R",
+                                                                "children": {
+                                                                    "Thumb_2_R": {
+                                                                        "name": "ThumbIntermediate_R",
+                                                                        "children": {
+                                                                            "Thumb_3_R": "ThumbDistal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Index_1_R": {
+                                                                "name": "IndexProximal_R",
+                                                                "children": {
+                                                                    "Index_2_R": {
+                                                                        "name": "IndexIntermediate_R",
+                                                                        "children": {
+                                                                            "Index_3_R": "IndexDistal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Middle_1_R": {
+                                                                "name": "MiddleProximal_R",
+                                                                "children": {
+                                                                    "Middle_2_R": {
+                                                                        "name": "MiddleIntermediate_R",
+                                                                        "children": {
+                                                                            "Middle_3_R": "MiddleDistal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Ring_1_R": {
+                                                                "name": "RingProximal_R",
+                                                                "children": {
+                                                                    "Ring_2_R": {
+                                                                        "name": "RingIntermediate_R",
+                                                                        "children": {
+                                                                            "Ring_3_R": "RingDistal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            },
+                                                            "Little_1_R": {
+                                                                "name": "LittleProximal_R",
+                                                                "children": {
+                                                                    "Little_2_R": {
+                                                                        "name": "LittleIntermediate_R",
+                                                                        "children": {
+                                                                            "Little_3_R": "LittleDistal_R"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
