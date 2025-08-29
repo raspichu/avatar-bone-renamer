@@ -1,0 +1,23 @@
+name: Create Release Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Select the tag for the release'
+        required: true
+        default: 'v0.1.0'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.inputs.tag }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
