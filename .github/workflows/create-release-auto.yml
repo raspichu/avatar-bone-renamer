@@ -1,3 +1,4 @@
+# Workflow: Create Release on Tag (Automatic)
 name: Create Release on Tag
 
 on:
@@ -8,14 +9,25 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-    - name: Create GitHub Release
-      uses: softprops/action-gh-release@v1
-      with:
-        tag_name: ${{ github.ref_name }}
-      env:
-        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+      - name: Build ZIP from src
+        run: |
+          TAG_NAME=${GITHUB_REF_NAME#refs/tags/}
+          ZIP_NAME="avatar-bone-renamer_${TAG_NAME}.zip"
+          # Crear carpeta temporal para mantener estructura dentro del ZIP
+          mkdir package
+          cp -r src/* package/
+          zip -r "$ZIP_NAME" package/*
+          echo "ZIP created: $ZIP_NAME"
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.ref_name }}
+          files: ${{ env.ZIP_NAME }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}

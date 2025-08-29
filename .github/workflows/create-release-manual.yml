@@ -1,3 +1,4 @@
+# Workflow: Create Release Manually
 name: Create Release Manually
 
 on:
@@ -15,9 +16,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Build ZIP from src
+        run: |
+          TAG_NAME=${{ github.event.inputs.tag }}
+          ZIP_NAME="avatar-bone-renamer_${TAG_NAME}.zip"
+          mkdir package
+          cp -r src/* package/
+          zip -r "$ZIP_NAME" package/*
+          echo "ZIP created: $ZIP_NAME"
+          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
+
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.event.inputs.tag }}
+          files: ${{ env.ZIP_NAME }}
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
